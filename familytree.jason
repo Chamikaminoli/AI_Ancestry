@@ -36,7 +36,7 @@
             "date_of_birth": "1963-12-03",
             "profession": "Businessmen",
             "parents": null,
-            "deceased": true,
+            "deceased": false,
             "children": [
                 "0x1",
                 "ox4"

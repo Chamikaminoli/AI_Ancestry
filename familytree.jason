@@ -76,6 +76,7 @@
             "children": [],
             "spouse": "0x5",
             "gender": "Male"
+            "blood_group": "O+"
         },
         {
             "uid": "0x5",
@@ -88,6 +89,7 @@
             "children": [],
             "spouse": "0x4",
             "gender": "Male"
+            "blood_group": "B+"
         }
     ]
 }

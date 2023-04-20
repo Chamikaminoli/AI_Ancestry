@@ -28,6 +28,7 @@
             "children": [],
             "spouse": null,
             "gender": "Female"
+            "blood_group": "O+"
         },
         {
             "uid": "0x2",
@@ -43,6 +44,7 @@
             ],
             "spouse": "0x3",
             "gender": "Male"
+            "blood_group": "O+"
         },
         {
             "uid": "0x3",
@@ -58,6 +60,7 @@
             ],
             "spouse": "0x2",
             "gender": "Female"
+            "blood_group": "B+"
         },
         {
             "uid": "0x4",

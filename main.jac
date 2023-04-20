@@ -36,7 +36,7 @@ walker create_familytree {
                 deceased = member["deceased"],
                 parents = member["parents"],
                 children = member["children"],
-                spouse = member["spouse"]
+                spouse = member["spouse"],
                 blood_group = member["blood_group"]
             );
             famly_members.list::append(family_member);

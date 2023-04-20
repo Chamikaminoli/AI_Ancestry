@@ -17,8 +17,7 @@ node person {
     has children;
     has spouse;
     has blood_group;
-
-
+    
     has age;
     has days_to_birthday;
 

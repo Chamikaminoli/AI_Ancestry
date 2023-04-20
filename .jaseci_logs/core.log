@@ -1,0 +1,8 @@
+2023-04-20 14:12:47,560 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-04-20 14:16:44,735 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-04-20 14:18:13,189 - ERROR - start: Skipping RedisService due to initialization failure!
+ConnectionError: Error 111 connecting to localhost:6379. Connection refused.
+2023-04-20 14:19:03,543 - INFO - proc_request: Incoming call from [32mminoli@jaseci.org[m:urn:uuid:3161de35-8a5c-4266-9279-d09a448361ed to [32msentinel_register[m with {'set_active': True, 'mode': 'ir', 'code': '{"gram_hash": "dd880c56f0150d356a7208bbac4facf6", "ir": {"name": "start", "kid": [{"name": "element", "kid": [{"name": "architype", "kid": [{"name": "KW_EDGE", "kid": [], "loc": [2, 0, "graph.jac", {"token": {"sy via python-requests/2.28.2
+2023-04-20 14:19:03,566 - INFO - log_request_stats: API call from [32mminoli@jaseci.org[m:urn:uuid:3161de35-8a5c-4266-9279-d09a448361ed to [32msentinel_register[m completed in [33m0.023 seconds[m touched [33m18[m mem / [33m0[m redis / [33m1[m db  ([33m0.6kb[m) and saving [33m17[m objects. Response: [{'version': None, 'name': 'main.jir', 'kind': 'generic', 'jid': 'urn:uuid:ace6c0aa-7aba-47e3-84dc-4a78016cd5fa', 'j_timestamp': '2023-04-20T14:19:03.544814', 'j_type': 'sentinel', 'code_sig': 'c8587610fc3199122a939e99621bd3c8'}, {'name': 'root', 'kind': '.

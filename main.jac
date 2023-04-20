@@ -50,6 +50,9 @@ walker create_familytree {
                     member_1 +[married]+> member_2;
                 }
                 if (member_1.id in member_2.children): member_1 +[child]+> member_2;
+                if (member_1.parents == member_2.parents) {
+                    member_1 +[sibling]+> member_2;
+                }
             }
         }
     }

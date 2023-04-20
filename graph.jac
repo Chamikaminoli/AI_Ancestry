@@ -2,6 +2,7 @@
 edge married;
 edge child;
 edge member;
+edge sibling;
 
 // Nodes
 node person {
@@ -33,6 +34,7 @@ node person {
         birth_day = birthdate_split[2];
         birthday = '-'.str::join([today_year, birth_month, birth_day]);
         difference = date.date_day_diff(start_date=today_date, end_date=birthday);
+        
         if (difference < 0) : difference = difference + 365;
         days_to_birthday = difference;
     }

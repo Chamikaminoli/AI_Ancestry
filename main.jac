@@ -90,7 +90,7 @@ walker find_same_blood_group{
         if (here.blood_group not in same_blood_group){
             same_blood_group[here.blood_group] = [];
         }
-        same_blood_group[here.blood_group].l::append([here.name,here.blood_group]);
+        same_blood_group[here.blood_group].l::append([here.name]);
     }
     with exit{
         std.out(same_blood_group);

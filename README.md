@@ -43,4 +43,12 @@ walker find_same_blood_group{
     with exit{
         std.out(same_blood_group);
         report same_blood_group; 
-explain this code
+This code defines a function called find_same_blood_group that creates a report of people in a family who have the same blood group. The function uses a variable called same_blood_group to store a mapping between blood groups and a list of people who have that blood group.
+
+The function starts by declaring the same_blood_group variable as an empty set. It then specifies that the root node of the family tree is the starting point for the traversal.
+
+For each person in the family tree, the function checks whether their blood group is already present in the same_blood_group set. If not, it creates an empty list for that blood group. It then appends the person's name to the list associated with their blood group.
+
+Finally, when the traversal of the family tree is complete, the function prints the same_blood_group variable to the standard output and returns it as the report.
+
+The code assumes that the family tree is represented as a set of nested node objects, where each node object represents a person and contains attributes such as the person's name and blood group. However, it does not show how the family tree is constructed or how the node objects are defined.

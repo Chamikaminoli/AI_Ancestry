@@ -55,7 +55,7 @@ The find_same_blood_group function, which generates a report of family members w
 Starting with an empty set, the method declares the same_blood_group variable. The beginning point for the traverse is thus specified as being the family tree's root node.
 
 
-For each person in the family tree, the function checks whether their blood group is already present in the same_blood_group set. If not, it creates an empty list for that blood group. It then appends the person's name to the list associated with their blood group.
+The function determines whether the blood group of each member of the family tree is already represented in the same_blood_group collection. If not, an empty list is created for that blood group. The name of the individual is then added to the list for that blood group.
 
 Finally, when the traversal of the family tree is complete, the function prints the same_blood_group variable to the standard output and returns it as the report.
 

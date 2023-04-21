@@ -1,10 +1,10 @@
-// Edges
+// Edges section
 edge married;
 edge child;
 edge member;
 edge sibling;
 
-// Nodes
+// Nodes section
 node person {
     has id;
     has family_id;
@@ -45,7 +45,7 @@ node family_root {
     has family_name;
 }
 
-// Graphs
+// Graphs section
 graph family_tree {
     has anchor family_root;
     spawn {

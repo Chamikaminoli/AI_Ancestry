@@ -61,7 +61,7 @@ walker create_familytree {
 
 walker find_coming_birthday {
     // returns the upcoming birthdays of the family
-    has max_return = 5;
+    has max_return = 10;
     has anchor birthday_order = [];
 
     root: take-->node::family_root;

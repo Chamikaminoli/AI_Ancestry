@@ -28,6 +28,7 @@ explore family dynamics.
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # New Feature - Identify Blood Group
+
 walker find_same_blood_group{
     // this function creates a report of same blood group
     has anchor same_blood_group = {};

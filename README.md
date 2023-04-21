@@ -28,3 +28,19 @@ explore family dynamics.
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 # New Feature - Identify Blood Group
+walker find_same_blood_group{
+    // this function creates a report of same blood group
+    has anchor same_blood_group = {};
+
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    person {
+        if (here.blood_group not in same_blood_group){
+            same_blood_group[here.blood_group] = [];
+        }
+        same_blood_group[here.blood_group].l::append([here.name]);
+    }
+    with exit{
+        std.out(same_blood_group);
+        report same_blood_group; 
+explain this code

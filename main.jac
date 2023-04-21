@@ -80,6 +80,23 @@ walker find_coming_birthday {
         report birthday_order;
     }
 }
+walker find_same_blood_group{
+    // creates a report of same blood group
+    has anchor same_blood_group = {};
+
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    person {
+        if (here.blood_group not in same_blood_group){
+            same_blood_group[here.blood_group] = [];
+        }
+        same_blood_group[here.blood_group].l::append([here.name,here.blood_group]);
+    }
+    with exit{
+        std.out(same_blood_group);
+        report same_blood_group; 
+    }
+ }
 
 // walker run {
 //     root {

@@ -27,7 +27,7 @@
             "deceased": false,
             "children": [],
             "spouse": null,
-            "gender": "Female"
+            "gender": "Female",
             "blood_group": "O+"
         },
         {
@@ -43,7 +43,7 @@
                 "ox4"
             ],
             "spouse": "0x3",
-            "gender": "Male"
+            "gender": "Male",
             "blood_group": "O+"
         },
         {
@@ -59,7 +59,7 @@
                 "0x4"
             ],
             "spouse": "0x2",
-            "gender": "Female"
+            "gender": "Female",
             "blood_group": "B+"
         },
         {
@@ -75,7 +75,7 @@
             "deceased": false,
             "children": [],
             "spouse": "0x5",
-            "gender": "Male"
+            "gender": "Male",
             "blood_group": "O+"
         },
         {
@@ -88,7 +88,7 @@
             "deceased": false,
             "children": [],
             "spouse": "0x4",
-            "gender": "Male"
+            "gender": "Male",
             "blood_group": "B+"
         }
     ]

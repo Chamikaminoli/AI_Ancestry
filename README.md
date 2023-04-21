@@ -48,6 +48,7 @@ walker find_same_blood_group{
         std.out(same_blood_group);
         report same_blood_group; 
     }
+ ```
  
 This code defines a function called find_same_blood_group that creates a report of people in a family who have the same blood group. The function uses a variable called same_blood_group to store a mapping between blood groups and a list of people who have that blood group.
 

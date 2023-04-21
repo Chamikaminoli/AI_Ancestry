@@ -1,4 +1,10 @@
 # AI_Ancestry
+The app lets users load a family tree
+data file in JSON format, create a graph using Jaseci
+with each person as a node and relationships as edges,
+and visualize it in Jaseci Studio. Users can then use
+Jaseci's simulation capabilities to analyze the graph and
+explore family dynamics.
 
 ## Group Members
 180356U - B.L.L.U. Liyanage<br>

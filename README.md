@@ -29,8 +29,8 @@ explore family dynamics.
 
 # New Feature - Identify Blood Group
 
+ // this function creates a report of same blood group
 walker find_same_blood_group{
-    // this function creates a report of same blood group
     has anchor same_blood_group = {};
 
     root: take-->node::family_root;

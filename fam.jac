@@ -7,7 +7,7 @@
         {
             "family_name": "Herath",
             "id": "0x2"
-        }
+        },
         {
             "family_name": "Sellakkodi",
             "id": "0x3"
@@ -27,7 +27,8 @@
             "deceased": false,
             "children": [],
             "spouse": null,
-            "gender": "Male"
+            "gender": "Male",
+            "blood_group": "O+"
         },
         {
             "uid": "0x2",
@@ -42,7 +43,8 @@
                 "0x4"
             ],
             "spouse": "0x3",
-            "gender": "Male"
+            "gender": "Male",
+            "blood_group": "O+"
         },
         {
             "uid": "0x3",
@@ -57,7 +59,8 @@
                 "0x4"
             ],
             "spouse": "0x2",
-            "gender": "Female"
+            "gender": "Female",
+            "blood_group": "AB+"
         },
         {
             "uid": "0x4",
@@ -71,8 +74,9 @@
             },
             "deceased": false,
             "children": [],
-            "spouse": "0x5"
-            "gender": "Female"
+            "spouse": "0x5",
+            "gender": "Female",
+            "blood_group": "O+"
         },
         {
             "uid": "0x5",
@@ -83,8 +87,9 @@
             "parents": null,
             "deceased": false,
             "children": [],
-            "spouse": "0x4"
-            "gender": "Male"
+            "spouse": "0x4",
+            "gender": "Male",
+            "blood_group": "B+"
         }
     ]
 }

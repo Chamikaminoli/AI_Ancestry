@@ -81,7 +81,7 @@ walker find_coming_birthday {
     }
 }
 walker find_same_blood_group{
-    // creates a report of same blood group
+    // this function creates a report of same blood group
     has anchor same_blood_group = {};
 
     root: take-->node::family_root;

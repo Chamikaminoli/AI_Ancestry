@@ -50,9 +50,10 @@ walker find_same_blood_group{
     }
  ```
  
-This code defines a function called find_same_blood_group that creates a report of people in a family who have the same blood group. The function uses a variable called same_blood_group to store a mapping between blood groups and a list of people who have that blood group.
+The find_same_blood_group function, which generates a report of family members with the same blood type, is defined in this code. The function stores a mapping between blood groups and a list of people who have each blood group in a variable named same_blood_group.
 
-The function starts by declaring the same_blood_group variable as an empty set. It then specifies that the root node of the family tree is the starting point for the traversal.
+Starting with an empty set, the method declares the same_blood_group variable. The beginning point for the traverse is thus specified as being the family tree's root node.
+
 
 For each person in the family tree, the function checks whether their blood group is already present in the same_blood_group set. If not, it creates an empty list for that blood group. It then appends the person's name to the list associated with their blood group.
 

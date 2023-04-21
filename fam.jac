@@ -62,7 +62,8 @@
             "gender": "Female",
             "blood_group": "AB+"
         },
-        {
+       
+         {
             "uid": "0x4",
             "family_id": "0x1",
             "name": "Amalka Liyanage",
@@ -73,9 +74,7 @@
                 "mother": "0x3"
             },
             "deceased": false,
-            "children": [
-                "0x6"
-            ],
+            "children": [],
             "spouse": "0x5",
             "gender": "Female",
             "blood_group": "O+"
@@ -88,28 +87,11 @@
             "profession": "Regional Manager",
             "parents": null,
             "deceased": false,
-            "children": [
-                "0x6"
-            ],
+            "children": [],
             "spouse": "0x4",
             "gender": "Male",
-            "blood_group": "B+"
-        },
-        {
-            "uid": "0x6",
-            "family_id": "0x2",
-            "name": "Adithya Herath",
-            "date_of_birth": "2020-12-05",
-            "profession": "Child",
-            "parents": {
-                "father": "0x4",
-                "mother": "0x5"
-            },
-            "deceased": false,
-            "children": [],
-            "spouse": null,
-            "gender": "Female",
             "blood_group": "B+"
         }
     ]
 }
+       

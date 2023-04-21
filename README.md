@@ -31,20 +31,22 @@ explore family dynamics.
 
 ## this function creates a report of same blood group
 
-  walker find_same_blood_group{
-      has anchor same_blood_group = {};
+walker find_same_blood_group{
+    // this function creates a report of same blood group
+    has anchor same_blood_group = {};
 
-      root: take-->node::family_root;
-      family_root: take-->node::person;
-      person {
-          if (here.blood_group not in same_blood_group){
-              same_blood_group[here.blood_group] = [];
-          }
-          same_blood_group[here.blood_group].l::append([here.name]);
-      }
-      with exit{
-          std.out(same_blood_group);
-          report same_blood_group;
+    root: take-->node::family_root;
+    family_root: take-->node::person;
+    person {
+        if (here.blood_group not in same_blood_group){
+            same_blood_group[here.blood_group] = [];
+        }
+        same_blood_group[here.blood_group].l::append([here.name]);
+    }
+    with exit{
+        std.out(same_blood_group);
+        report same_blood_group; 
+    }
  
 This code defines a function called find_same_blood_group that creates a report of people in a family who have the same blood group. The function uses a variable called same_blood_group to store a mapping between blood groups and a list of people who have that blood group.
 

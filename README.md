@@ -1,5 +1,5 @@
 # AI_Ancestry
-The app lets users load a family tree
+The project lets users load a family tree
 data file in JSON format, create a graph using Jaseci
 with each person as a node and relationships as edges,
 and visualize it in Jaseci Studio. Users can then use

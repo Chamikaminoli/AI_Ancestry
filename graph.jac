@@ -53,4 +53,3 @@ graph family_tree {
     }
 }
 
-Lakshitha Pankaja Tenisha Piyumi Chamika
